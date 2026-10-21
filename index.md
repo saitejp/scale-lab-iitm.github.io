@@ -1,81 +1,51 @@
 ---
 ---
 
-# saitejp's Website
+# Control, estimation, and learning for complex systems
 
-An engaging 1-3 sentence description of your lab.
+The **Systems Control And Learning (SCALe) Group** is based in the Department of Mechanical Engineering at the **Indian Institute of Technology Madras**.
+
+Our research brings together control theory, estimation, and machine learning to understand and regulate nonlinear dynamical systems. We connect theoretical analysis and stability guarantees with applications to engineering systems, including magnetically confined fusion plasmas.
+
+{%
+  include button.html
+  link="research"
+  text="Explore our research"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+%}
+{%
+  include button.html
+  link="team"
+  text="Meet the group"
+  icon="fa-solid fa-users"
+%}
 
 {% include section.html %}
 
-## Highlights
+## Research directions
 
-{% capture text %}
+### Nonlinear and adaptive control
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Feedback design, constrained control, and adaptive estimation with an emphasis on stability and convergence guarantees.
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+### Learning and estimation
 
-{% endcapture %}
+Reproducing kernel Hilbert space methods, reinforcement learning for feedback control, and data-driven models of dynamical systems.
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+### Fusion plasma control
 
-{% capture text %}
+Control and optimization methods for tokamaks, including density regulation, profile control, and actuator allocation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% include section.html %}
+
+## Connect with SCALe
+
+Interested in our research, in joining the group, or in exploring a collaboration? Get in touch.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
+  link="contact"
+  text="Contact us"
+  icon="fa-solid fa-envelope"
 %}
