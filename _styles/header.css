@@ -27,7 +27,7 @@ header a {
 }
 
 .logo {
-  height: 40px;
+  height: 52px;
 }
 
 .logo > * {
@@ -37,22 +37,37 @@ header a {
 
 .title-text {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 5px;
+  align-items: flex-start;
+  gap: 2px;
   min-width: 0;
   font-family: var(--title);
   text-align: left;
 }
 
 .title {
-  font-size: var(--large);
+  font-family: "Manrope", var(--title);
+  font-size: calc(0.68rem * 3.22);
+  font-weight: 800;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.title-accent {
+  color: #e8b45a;
 }
 
 .subtitle {
-  opacity: 0.65;
-  font-weight: var(--thin);
+  color: color-mix(in srgb, var(--text) 75%, transparent);
+  font-family: "Manrope", var(--title);
+  font-size: 0.68rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.subtitle .initial {
+  font-weight: 800;
 }
 
 .nav-toggle {
@@ -129,19 +144,29 @@ header[data-big] .home {
   flex-grow: 0;
 }
 header[data-big] .logo {
-  height: 80px;
+  height: 140px;
   flex-shrink: 0;
 }
 header[data-big] .title-text {
-  flex-direction: column;
   align-items: center;
+  gap: 5px;
   text-align: center;
 }
 header[data-big] .title {
-  font-size: var(--xxl);
+  font-size: calc(var(--large) * 3.22);
 }
 header[data-big] .subtitle {
   font-size: var(--large);
+}
+@media (min-width: 700px) {
+  header[data-big] .home {
+    flex-direction: row;
+    gap: 40px;
+  }
+  header[data-big] .title-text {
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */
