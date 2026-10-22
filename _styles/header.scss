@@ -1,8 +1,12 @@
 ---
 ---
 
-$logo-big: 80px;
-$logo: 40px;
+$logo-big: 140px;
+$logo: 52px;
+// title sized so "SCaLe Lab" is as wide as the subtitle below it, as in the logo lockup
+// (ratio of the two strings' Manrope advance widths: 16.41 / 5.10)
+$title-to-subtitle: 3.22;
+$subtitle: 0.68rem;
 $big-padding: 100px;
 $collapse: 700px;
 $sticky: true;
@@ -47,24 +51,41 @@ header a {
   height: 100%;
 }
 
+// name stacked over subtitle, both the same width, as in the logo lockup
 .title-text {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 5px;
+  align-items: flex-start;
+  gap: 2px;
   min-width: 0;
   font-family: var(--title);
   text-align: left;
 }
 
 .title {
-  font-size: var(--large);
+  font-family: "Manrope", var(--title);
+  font-size: calc(#{$subtitle} * #{$title-to-subtitle});
+  font-weight: 800;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.title-accent {
+  color: #e8b45a;
 }
 
 .subtitle {
-  opacity: 0.65;
-  font-weight: var(--thin);
+  // dim with a translucent colour rather than opacity, so highlighted initials can stay at full strength
+  color: color-mix(in srgb, var(--text) 75%, transparent);
+  font-family: "Manrope", var(--title);
+  font-size: $subtitle;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.subtitle .initial {
+  font-weight: 800;
 }
 
 .nav-toggle {
@@ -153,16 +174,29 @@ header[data-big] {
   }
 
   .title-text {
-    flex-direction: column;
     align-items: center;
+    gap: 5px;
     text-align: center;
   }
 
   .title {
-    font-size: var(--xxl);
+    font-size: calc(var(--large) * #{$title-to-subtitle});
   }
 
   .subtitle {
     font-size: var(--large);
+  }
+
+  // wide screens: mark beside the name, as in the logo lockup
+  @media (min-width: $collapse) {
+    .home {
+      flex-direction: row;
+      gap: 40px;
+    }
+
+    .title-text {
+      align-items: flex-start;
+      text-align: left;
+    }
   }
 }

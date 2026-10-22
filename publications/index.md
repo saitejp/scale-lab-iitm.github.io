@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-scroll" %}Publications
 
-This initial collection is drawn from Sai Tej Paruchuri’s publication record and includes work completed before the group was established.
+This initial collection is drawn from Sai Tej Paruchuri’s publication record and includes work completed before the lab was established.
 
 [Google Scholar profile](https://scholar.google.com/citations?user=rxMB0HAAAAAJ&hl=en&oi=ao)
 

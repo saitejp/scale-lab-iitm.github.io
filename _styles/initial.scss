@@ -1,0 +1,9 @@
+---
+---
+
+// letters of a name that form its acronym, e.g. the S, C, a, L, e of SCaLe.
+// marked by weight, not colour: gold is kept for the "LE" in the "SCALE Lab" logo lockup
+.initial {
+  color: var(--text);
+  font-weight: var(--bold);
+}

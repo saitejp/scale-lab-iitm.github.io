@@ -1,6 +1,10 @@
 # site properties and page defaults
-title: SCALe Group
-subtitle: Systems Control And Learning
+title: SCaLe Lab
+# title in the header, with "Le" in gold as in the logo
+title-html: SCa<span class="title-accent">Le</span> Lab
+subtitle: Systems, Control and Learning Lab
+# subtitle in the header, with the letters of "SCaLe" highlighted
+subtitle-html: <span class="initial">S</span>ystems, <span class="initial">C</span>ontrol <span class="initial">a</span>nd <span class="initial">L</span><span class="initial">e</span>arning Lab
 description: Control theory, estimation, and machine learning at the Department of Mechanical Engineering, IIT Madras.
 header: images/background.jpg
 footer: images/background.jpg
@@ -9,7 +13,7 @@ proofer: false
 # site social media and other links
 links:
   email: saitejp@iitm.ac.in
-  google-scholar: rxMB0HAAAAAJ
+  github: scale-lab-iitm
 
 ### jekyll settings
 

@@ -2,9 +2,9 @@
 ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
 ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-# SCALe Group
+# SCaLe Lab
 
-**Systems Control And Learning Group**, Department of Mechanical Engineering, IIT Madras
+**Systems, Control and Learning Lab**, Department of Mechanical Engineering, IIT Madras
 
 Visit **[scale-lab-iitm.github.io](https://scale-lab-iitm.github.io)** 🚀
 

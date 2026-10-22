@@ -1,6 +1,6 @@
 ---
 name: Sai Tej Paruchuri
-image: images/fallback.svg
+image: images/sai-tej-paruchuri.jpg
 role: principal-investigator
 description: Assistant Professor
 affiliation: Mechanical Engineering, IIT Madras

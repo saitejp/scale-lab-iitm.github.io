@@ -2,7 +2,7 @@
 title: People
 nav:
   order: 2
-  tooltip: Meet the SCALe Group
+  tooltip: Meet the SCaLe Lab team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}People

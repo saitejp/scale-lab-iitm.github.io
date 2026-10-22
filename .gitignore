@@ -11,3 +11,9 @@ package.json
 package-lock.json
 yarn.lock
 node_modules
+.bundle
+Gemfile.local
+Gemfile.local.lock
+
+# brand source files are kept outside the repo (../scale-lab-brand); the regeneration script writes here
+images/brand/

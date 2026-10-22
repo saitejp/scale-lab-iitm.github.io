@@ -3,7 +3,7 @@
 
 # Control, estimation, and learning for complex systems
 
-The **Systems Control And Learning (SCALe) Group** is based in the Department of Mechanical Engineering at the **Indian Institute of Technology Madras**.
+The <span class="initial">S</span>ystems, <span class="initial">C</span>ontrol <span class="initial">a</span>nd <span class="initial">L</span><span class="initial">e</span>arning **(SCaLe) Lab** is based in the Department of Mechanical Engineering at the **Indian Institute of Technology Madras**.
 
 Our research brings together control theory, estimation, and machine learning to understand and regulate nonlinear dynamical systems. We connect theoretical analysis and stability guarantees with applications to engineering systems, including magnetically confined fusion plasmas.
 
@@ -17,7 +17,7 @@ Our research brings together control theory, estimation, and machine learning to
 {%
   include button.html
   link="team"
-  text="Meet the group"
+  text="Meet the lab"
   icon="fa-solid fa-users"
 %}
 
@@ -39,9 +39,9 @@ Control and optimization methods for tokamaks, including density regulation, pro
 
 {% include section.html %}
 
-## Connect with SCALe
+## Connect with SCaLe Lab
 
-Interested in our research, in joining the group, or in exploring a collaboration? Get in touch.
+Interested in our research, in joining the lab, or in exploring a collaboration? Get in touch.
 
 {%
   include button.html
